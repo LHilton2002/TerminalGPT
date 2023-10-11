@@ -6,6 +6,7 @@ export default function Document() {
       <Head />
       <body>
         <Main />
+        <link rel="stylesheet" href="/styles/global.css" />
         <NextScript />
       </body>
     </Html>
