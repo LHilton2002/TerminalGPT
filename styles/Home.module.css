@@ -53,3 +53,27 @@
   align-items: center;
   padding: 5px;
 }
+
+/* Additional styles for smaller screens or mobile devices */
+@media (max-width: 768px) {
+  .terminal {
+    max-width: 100%; /* Allow it to take up the full width on smaller screens */
+    font-size: 14px; /* Adjust font size for readability on small screens */
+    height: 100%;
+    width: 90%;
+    margin: 0 auto; /* Center horizontally */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center vertically */
+    height: 100vh; /* Full height of the viewport */
+  }
+
+  .title {
+    font-size: 20px; /* Smaller font size for title on small screens */
+  }
+
+  .inputField,
+  .buttonSubmit {
+    font-size: 14px; /* Smaller font size for input and button on small screens */
+  }
+}
